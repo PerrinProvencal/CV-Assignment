@@ -3,45 +3,48 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
+        <title>CV FORM - ASHESI</title>
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1 id="c1">CV FORM</h1>
-        <form>
+        <h1 id="c1">ASHESI CV FORM</h1>
+        <form id="formid">
             <div class="d1">
                 <label>First Name</label>
-                <input type="text" placeholder="First Name">
+                <input id="Fname" type="text" placeholder="First Name">
             </div>
             <div class="d1">
                 <label>Middle Name</label>
-                <input type="text" placeholder="Middle Name">
+                <input id="Mname" type="text" placeholder="Middle Name">
             </div>
             <div class="d1">
                 <label>Last Name</label>
-                <input type="text" placeholder="Last Name">
+                <input id="Lname" type="text" placeholder="Last Name">
             </div>
             <div class="d1">
                 <label>Gender</label>
-                <select>
-                    <option>Gender</option>
-                    <option>Male</option>
-                    <option>Female</option>
+                <select id="Gen">
+                    <option value=""disabled selected hidden>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
                 </select>
             </div>
             <div class="d1">
                 <label>Phone Number</label>
-                <input type="tel" placeholder="Phone Number">
+                <input id = "Pnum" type="tel" placeholder="Phone Number">
             </div>
             <div class="d1">
                 <label>Email</label>
-                <input type="email" placeholder="user@mail.com">
+                <input id = "Email" type="email" placeholder="user@mail.com">
             </div>
             <div class="d1">
                 <label>Address</label>
-                <input type="text" placeholder="Address">
+                <input id="Add" type="text" placeholder="Address">
             </div>
-            <button id = "b1" type="submit">Submit</button>
+            <div id="b1">
+            <button type="submit">Submit</button>
+            </div>
         </form>
     </body>
+    <script src="script.js"></script>
 </html>

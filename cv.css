@@ -3,7 +3,17 @@
     
 }
 
-.h1{
+.head1{
     text-align: center;
     margin: 1px;
+}
+
+.head2{
+    margin: 20px 0px 0px 0px;
+    height: 20px;
+}
+
+.head3{
+    margin: 10px 0px 0px 0px;
+    height: 7px
 }
