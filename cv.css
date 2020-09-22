@@ -1,18 +1,21 @@
+/*Font of CV*/
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
+/*Alignment of Header*/
 .head1{
     text-align: center;
     margin: 1px;
 }
 
+/*Alignment of Header*/
 .head2{
     margin: 20px 0px 0px 0px;
     height: 20px;
 }
 
+/*Alignment of Header*/
 .head3{
     margin: 10px 0px 0px 0px;
     height: 7px
