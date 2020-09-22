@@ -1,37 +1,43 @@
+/*Background colour of site*/
 :root{
     background-color:wheat;
 }
 
+/*Design for header*/
 #c1{
     text-align: center;
-    color: black;
     border: 3px solid;
     background-color:  rgba(114, 47, 55, 0.857);
     margin: 20px 0px 10px;
     padding: 10px;
 }
 
+/*Design for elements of Form*/
 .d1{
     text-align: center;
     margin: 10px auto 20px auto;
     padding: 10px;
 }
 
+/*Design for button*/
 #b1{
     display: flex;
     justify-content: center;
 }
 
+/*Design for label*/
 label{
     width: 115px;
     text-align: right;
     display: inline-block;
 }
 
+/*Design for input*/
 input{
     width: 25vw;
 }
 
+/*Design for select*/
 select{
     width: 25vw;
 }
